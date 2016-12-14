@@ -1,0 +1,9 @@
+Ocean.exr without halos - results/oceanwithouthalos.png
+-b 50 filters/gaussian.filt
+bi lateral filter and c equal to 75 and gaussion filter with sigma equal to 1 
+
+smalldesigncenter with gaussian - results/smalldwithgauss.png
+-b 15 filters/gaussian.filt 
+bi lateral filter with c equal to 75 and gaussian filter with sigma equal to 1
+
+

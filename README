@@ -1,0 +1,31 @@
+Final Project for Computer Graphics Images
+by Saurabh 
+
+Make
+
+Usage - 
+./main [input_file]
+
+Press 's' to step through the various filters that need to be applied to cartoonify an image. 
+Press 'r' to see original image. Press 'r' again to see animated/comin-book image. Its a toggle button 
+
+Step 1 is identify vertical edges. 
+Step 2 is identify horizontal edges. 
+Step 3 is identify left to right diagonal edges 
+Step 4 is identify right to left diagonal edges
+Step 5 is vertical edges over original image
+Step 6 is draw Horizaontal edges over original image
+Step 7 is draw diagonal edges over image from step 6.
+Step 8 is apply gaussian blur. 
+
+Ta da! You an image that looks from a comic book! 
+
+All the intermediate images are stored in results folder. 
+The horizontal edges - image3_1.png and image1.png
+The vertical edges - image3_2.png and image2.png
+The right to left edges - images3_3.png and image3.png
+The left to right edges - images3_4.png and image4.png
+
+The composited images are stored as image6.png.
+The different sample images are stored in images folder. 
+The results/experiments are stored in the results folder.
